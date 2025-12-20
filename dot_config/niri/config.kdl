@@ -576,5 +576,3 @@ gestures {
         bottom-right
     }
 } 
-
-include "dms/outputs.kdl"
