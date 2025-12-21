@@ -316,7 +316,7 @@ binds {
     Mod+T hotkey-overlay-title="Open a Terminal: Ptyxis" { spawn "ptyxis" "--new-window"; }
     //Shift+Mod+T hotkey-overlay-title="Open a Terminal: ghostty (without service)" { spawn "ghostty"; }
     Ctrl+Shift+Escape hotkey-overlay-title="Open a Resource Usage Analyzer: Mission Center" { spawn "flatpak" "run" "io.missioncenter.MissionCenter"; }
-    Mod+E hotkey-overlay-title="Open File Manager" { spawn "nemo"; }
+    Mod+E hotkey-overlay-title="Open File Manager" { spawn "nautilus"; }
  
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
@@ -568,11 +568,3 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
-
-// Enable the top-right and bottom-right hot corners.
-gestures {
-    hot-corners {
-        bottom-left
-        bottom-right
-    }
-} 
