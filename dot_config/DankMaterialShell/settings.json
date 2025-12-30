@@ -133,7 +133,7 @@
   "vpnLastConnected": "",
   "iconTheme": "System Default",
   "launcherLogoMode": "custom",
-  "launcherLogoCustomPath": "/usr/share/mizukios/pixmaps/logo-ribbon.svg",
+  "launcherLogoCustomPath": "/usr/share/mizukios/pixmaps/watermark.png",
   "launcherLogoColorOverride": "surface",
   "launcherLogoColorInvertOnMode": false,
   "launcherLogoBrightness": 0.5,
