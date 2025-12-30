@@ -134,7 +134,7 @@
   "iconTheme": "System Default",
   "launcherLogoMode": "custom",
   "launcherLogoCustomPath": "/usr/share/mizukios/pixmaps/watermark.png",
-  "launcherLogoColorOverride": "surface",
+  "launcherLogoColorOverride": "primary",
   "launcherLogoColorInvertOnMode": false,
   "launcherLogoBrightness": 0.5,
   "launcherLogoContrast": 1,
